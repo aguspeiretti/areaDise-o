@@ -61,41 +61,42 @@ const Tutfg = ({ seleccion }) => {
     <div className="contenedor-primario">
       <div className="titulo-proyecto">Tu TFG</div>
       {seleccion === "colores" ? (
-        <div className="colores-container">
-          <h3 className="titulos-secciones">Colores</h3>
-          <div className="box-colores">
-            <div
-              className="box box1tf"
-              onClick={() => copyColorToClipboard("#0094EA")}
-            ></div>
-            <div
-              className="box box2tf"
-              onClick={() => copyColorToClipboard("#0068A4")}
-            ></div>
-            <div
-              className="box box3tf"
-              onClick={() => copyColorToClipboard("#FFAA08")}
-            ></div>
-            <div
-              className="box box4tf"
-              onClick={() => copyColorToClipboard("#EBF2FA")}
-            ></div>
+        <div className="colores-fuentes">
+          <div className="colores-container">
+            <h3 className="titulos-secciones">Colores</h3>
+            <div className="box-colores">
+              <div
+                className="box box1tf"
+                onClick={() => copyColorToClipboard("#0094EA")}
+              ></div>
+              <div
+                className="box box2tf"
+                onClick={() => copyColorToClipboard("#0068A4")}
+              ></div>
+              <div
+                className="box box3tf"
+                onClick={() => copyColorToClipboard("#FFAA08")}
+              ></div>
+              <div
+                className="box box4tf"
+                onClick={() => copyColorToClipboard("#EBF2FA")}
+              ></div>
+            </div>
           </div>
-        </div>
-      ) : seleccion === "fuentes" ? (
-        <div className="fuentes-container">
-          <h3 className="titulos-secciones">Fuentes</h3>
-          <div className="box-fuentes">
-            <h3
-              className="poppins"
-              onClick={() =>
-                handleFontDownload(
-                  "../../assets/fonts/Source Sans Pro-20240401T191345Z-001.zip" // Ruta correcta hacia el archivo ZIP de la fuente Poppins
-                )
-              }
-            >
-              Source Sans
-            </h3>
+          <div className="fuentes-container">
+            <h3 className="titulos-secciones">Fuentes</h3>
+            <div className="box-fuentes">
+              <h3
+                className="poppins"
+                onClick={() =>
+                  handleFontDownload(
+                    "../../assets/fonts/Source Sans Pro-20240401T191345Z-001.zip" // Ruta correcta hacia el archivo ZIP de la fuente Poppins
+                  )
+                }
+              >
+                Source Sans
+              </h3>
+            </div>
           </div>
         </div>
       ) : seleccion === "google-ads" ? (

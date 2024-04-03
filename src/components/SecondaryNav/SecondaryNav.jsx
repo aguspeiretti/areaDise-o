@@ -9,8 +9,8 @@ const SecondaryNav = ({ onSeleccionChange }) => {
   return (
     <div className="secondary-nav">
       <ul className="nav">
-        <li onClick={() => handleLinkClick("colores")}>Colores</li>
-        <li onClick={() => handleLinkClick("fuentes")}>Fuentes</li>
+        <li onClick={() => handleLinkClick("colores")}>Colores/Fuentes</li>
+
         <li onClick={() => handleLinkClick("google-ads")}>T.Google Ads</li>
         <li onClick={() => handleLinkClick("imagines-meta")}>
           T.Imagenes/videos Meta

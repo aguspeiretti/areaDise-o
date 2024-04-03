@@ -61,37 +61,38 @@ const Tfges = ({ seleccion }) => {
     <div className="contenedor-primario">
       <div className="titulo-proyecto">TFG es</div>
       {seleccion === "colores" ? (
-        <div className="colores-container">
-          <h3 className="titulos-secciones">Colores</h3>
-          <div className="box-colores">
-            <div
-              className="box box1tfes"
-              onClick={() => copyColorToClipboard("#283770")}
-            ></div>
-            <div
-              className="box box2tfes"
-              onClick={() => copyColorToClipboard("#3468FF")}
-            ></div>
-            <div
-              className="box box3tfes"
-              onClick={() => copyColorToClipboard("#00DC6B")}
-            ></div>
+        <div className="colores-fuentes">
+          <div className="colores-container">
+            <h3 className="titulos-secciones">Colores</h3>
+            <div className="box-colores">
+              <div
+                className="box box1tfes"
+                onClick={() => copyColorToClipboard("#283770")}
+              ></div>
+              <div
+                className="box box2tfes"
+                onClick={() => copyColorToClipboard("#3468FF")}
+              ></div>
+              <div
+                className="box box3tfes"
+                onClick={() => copyColorToClipboard("#00DC6B")}
+              ></div>
+            </div>
           </div>
-        </div>
-      ) : seleccion === "fuentes" ? (
-        <div className="fuentes-container">
-          <h3 className="titulos-secciones">Fuentes</h3>
-          <div className="box-fuentes">
-            <h3
-              className="poppins"
-              onClick={() =>
-                handleFontDownload(
-                  "../../assets/fonts/Poppins.zip" // Ruta correcta hacia el archivo ZIP de la fuente Poppins
-                )
-              }
-            >
-              Poppins
-            </h3>
+          <div className="fuentes-container">
+            <h3 className="titulos-secciones">Fuentes</h3>
+            <div className="box-fuentes">
+              <h3
+                className="poppins"
+                onClick={() =>
+                  handleFontDownload(
+                    "../../assets/fonts/Poppins.zip" // Ruta correcta hacia el archivo ZIP de la fuente Poppins
+                  )
+                }
+              >
+                Poppins
+              </h3>
+            </div>
           </div>
         </div>
       ) : seleccion === "google-ads" ? (

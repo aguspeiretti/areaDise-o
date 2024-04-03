@@ -19,7 +19,7 @@ const TamañosMeta = () => {
 
   return (
     <div className="meta-container">
-      <div className="divisor-izqiedo">
+      <div className="divisor-izquiedo-meta">
         <h3 className="titulos-secciones titulo-meta">Tamaños imagenes Meta</h3>
         <div className="ads">
           <h3 className="titulos-subsecciones" onClick={() => handleToggle(1)}>

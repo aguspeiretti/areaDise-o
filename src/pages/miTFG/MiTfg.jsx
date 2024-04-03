@@ -60,51 +60,52 @@ const MiTfg = ({ seleccion }) => {
     <div className="contenedor-primario">
       <div className="titulo-proyecto">Quiero mi TFG</div>
       {seleccion === "colores" ? (
-        <div className="colores-container">
-          <h3 className="titulos-secciones">Colores</h3>
-          <div className="box-colores">
-            <div
-              className="box box1mitfg"
-              onClick={() => copyColorToClipboard("#0000FF")}
-            ></div>
-            <div
-              className="box box2mitfg"
-              onClick={() => copyColorToClipboard("#00C550")}
-            ></div>
-            <div
-              className="box box3mitfg"
-              onClick={() => copyColorToClipboard("#FFD400")}
-            ></div>
-            <div
-              className="box box4mitfg"
-              onClick={() => copyColorToClipboard("#FF1AE4")}
-            ></div>
+        <div className="colores-fuentes">
+          <div className="colores-container">
+            <h3 className="titulos-secciones">Colores</h3>
+            <div className="box-colores">
+              <div
+                className="box box1mitfg"
+                onClick={() => copyColorToClipboard("#0000FF")}
+              ></div>
+              <div
+                className="box box2mitfg"
+                onClick={() => copyColorToClipboard("#00C550")}
+              ></div>
+              <div
+                className="box box3mitfg"
+                onClick={() => copyColorToClipboard("#FFD400")}
+              ></div>
+              <div
+                className="box box4mitfg"
+                onClick={() => copyColorToClipboard("#FF1AE4")}
+              ></div>
+            </div>
           </div>
-        </div>
-      ) : seleccion === "fuentes" ? (
-        <div className="fuentes-container">
-          <h3 className="titulos-secciones">Fuentes</h3>
-          <div className="box-fuentes">
-            <h3
-              className="poppins"
-              onClick={() =>
-                handleFontDownload(
-                  "../../assets/fonts/helvetica-20240401T194853Z-001.zipp"
-                )
-              }
-            >
-              Helvetica
-            </h3>
-            <h3
-              className="poppins"
-              onClick={() =>
-                handleFontDownload(
-                  "../../assets/fonts/Lato-20240401T194854Z-001.zip"
-                )
-              }
-            >
-              Lato
-            </h3>
+          <div className="fuentes-container">
+            <h3 className="titulos-secciones">Fuentes</h3>
+            <div className="box-fuentes">
+              <h3
+                className="poppins"
+                onClick={() =>
+                  handleFontDownload(
+                    "../../assets/fonts/helvetica-20240401T194853Z-001.zipp"
+                  )
+                }
+              >
+                Helvetica
+              </h3>
+              <h3
+                className="poppins"
+                onClick={() =>
+                  handleFontDownload(
+                    "../../assets/fonts/Lato-20240401T194854Z-001.zip"
+                  )
+                }
+              >
+                Lato
+              </h3>
+            </div>
           </div>
         </div>
       ) : seleccion === "google-ads" ? (
