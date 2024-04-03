@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import Swal from "sweetalert2";
 import TamañosAds from "../../components/TamañosAds/TamañosAds";
 import TamañosMeta from "../../components/TamañosMeta/TamañosMeta";
@@ -26,7 +27,7 @@ const MundoJob = ({ seleccion }) => {
         console.error("Error al copiar al portapapeles: ", error);
         Swal.fire({
           icon: "error",
-          title: "Error",
+          title: "error",
           text: "Hubo un error al copiar al portapapeles.",
           toast: true,
           position: "top-end",
