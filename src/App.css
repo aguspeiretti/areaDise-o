@@ -1,0 +1,15 @@
+.App{
+  width: 100vw;
+  height: auto;
+  /* background-image: url(./assets/back1.png); */
+  background-image: url(./assets/prueba.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+  
+}
+.pages-container{
+
+  height: 100vh;
+}

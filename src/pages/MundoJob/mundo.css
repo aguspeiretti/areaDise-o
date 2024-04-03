@@ -1,0 +1,16 @@
+.box1mundo , .box2mundo , .box3mundo, .box4mundo{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.box1mundo{
+   background-color: #18112E; 
+}
+.box2mundo{
+    background-color: #643B9F; 
+ }
+ .box3mundo{
+    background-color: #9B84C1; 
+ }
+

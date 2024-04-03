@@ -1,0 +1,172 @@
+.contenedor-primario{
+  width: 100%;
+  height: 100%;
+ position: relative;
+ display: flex;
+ justify-content: center;
+}
+.titulo-proyecto{
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+    background-image: linear-gradient(to right, #f1b597, #f15658); /* Cambia los colores según tus preferencias */
+    color: transparent; /* Hace que el texto sea transparente */
+    -webkit-background-clip: text; /* Aplica el degradado al texto */
+    background-clip: text; /* Aplica el degradado al texto */
+    text-decoration: none; /* Quita la subrayado predeterminado */
+    font-size: 38px;
+}
+
+
+.colores-container{
+  width: 100%;
+  height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.titulos-secciones{
+  font-size: 60px;
+  background-image: linear-gradient(to right, #f1b597, #f15658); /* Cambia los colores según tus preferencias */
+    color: transparent; /* Hace que el texto sea transparente */
+    -webkit-background-clip: text; /* Aplica el degradado al texto */
+    background-clip: text; /* Aplica el degradado al texto */
+    text-decoration: none; /* Quita la subrayado predeterminado */
+    margin-right: 150px;
+}
+
+.box-colores{
+    display: flex;
+   
+}
+.box1 , .box2 , .box3, .box4{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.box1{
+   background-color: #818DEB; 
+}
+.box2{
+    background-color: #68D5E6; 
+ }
+ .box3{
+    background-color: #C9C9C9; 
+ }
+ .box4{
+    background-color: #FF6A87; 
+ }
+ .swal2-popup-custom {
+    background-color: #1b1b1b !important; /* Fondo negro */
+    color: #fff !important; /* Texto blanco */
+  }
+
+  .fuentes-container{
+    width: 100%;
+    height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items:center;
+  }
+
+  .box-fuentes{
+
+    display: flex;
+  }
+
+  .box-fuentes h3{
+    font-size: 25px;
+    cursor: pointer;
+    padding: 0px 20px;
+    display:flex;
+    justify-content: center;
+    align-items: start;
+    color: white;
+    border: 2px solid white;
+    margin-right: 20px;
+    border-radius: 15px;
+    transition: 0.5s;
+  }
+  .box-fuentes h3:hover{
+   color: #f15658;
+   border: 2px solid  #f15658;;
+
+  }
+  .poppins{
+    font-family:"poppins";
+    font-weight: 300;
+  }
+  .openSa{
+    font-family:"Open Sans";
+    font-weight: 300;
+  }
+
+  .tamaños{
+    
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tamaños-meta{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .titulos-subsecciones{
+    font-family: "poppins";
+    font-weight: 200;
+    color: white;
+    padding-left: 30px;
+  }
+  .logos{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .logos a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .recursos{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+  .recursos a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .drive{
+    display: flex;
+    align-items: center;
+  }
+
+   .recursos a:hover{
+    color: #f15658; 
+    border: 2px solid #f15658;
+  }
+  .logos a:hover{
+    color: #f15658; 
+    border: 2px solid #f15658;
+  }

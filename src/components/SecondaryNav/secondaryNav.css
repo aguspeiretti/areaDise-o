@@ -1,0 +1,37 @@
+.nav-proyect{
+    display: flex;
+}
+.nav-proyect ul{
+display: flex;
+align-items: center;
+}
+
+.nav-proyect ul li{
+   list-style: none;
+   margin-left: 35px;
+   font-size: 20px;
+   cursor: pointer;
+    }
+
+ .secondary-nav ul{
+    display: flex;
+ }   
+
+ .secondary-nav ul li{
+    list-style: none;
+    margin-right: 20px;
+    background-image: linear-gradient(to right, #ff9966, #ff5e62); /* Cambia los colores según tus preferencias */
+    color: transparent; /* Hace que el texto sea transparente */
+    -webkit-background-clip: text; /* Aplica el degradado al texto */
+    background-clip: text; /* Aplica el degradado al texto */
+    text-decoration: none; /* Quita la subrayado predeterminado */
+    padding: 10px 20px; /* Ajusta el espaciado interior según sea necesario */
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px
+    ;
+ }   
+
+ .secondary-nav ul li:hover {
+    background-image: linear-gradient(to right, #ff5e62, #ff9966); /* Cambia los colores para el hover */
+}

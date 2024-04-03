@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'mundo';
+  src: url('./assets/fonts/Quicksand-VariableFont_wght.ttf') format('truetype');
+  /* Ajusta la ruta al archivo de tu fuente */
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "mundo";
+  
+}

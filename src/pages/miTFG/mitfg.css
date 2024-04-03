@@ -1,0 +1,18 @@
+.box1mitfg , .box2mitfg , .box3mitfg, .box4mitfg{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.box1mitfg{
+   background-color: #0000FF; 
+}
+.box2mitfg{
+    background-color: #00C550; 
+ }
+ .box3mitfg{
+    background-color: #FFD400; 
+ }
+ .box4mitfg{
+    background-color: #FF1AE4; 
+ }

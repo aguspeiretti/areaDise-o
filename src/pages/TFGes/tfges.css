@@ -1,0 +1,15 @@
+.box1tfes , .box2tfes , .box3tfes, .box4tfes{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.box1tfes{
+   background-color: #283770; 
+}
+.box2tfes{
+    background-color: #3468FF; 
+ }
+ .box3tfes{
+    background-color: #00DC6B; 
+ }

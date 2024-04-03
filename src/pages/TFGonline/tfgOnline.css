@@ -1,0 +1,18 @@
+.box1tfo , .box2tfo , .box3tfo, .box4tfo{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.box1tfo{
+   background-color: #00C18E; 
+}
+.box2tfo{
+    background-color: #0F5257; 
+ }
+ .box3tfo{
+    background-color: #FF5A76; 
+ }
+ .box4tfo{
+    background-color: #043B62; 
+ }

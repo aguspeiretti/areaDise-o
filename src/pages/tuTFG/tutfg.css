@@ -1,0 +1,18 @@
+.box1tf , .box2tf , .box3tf, .box4tf{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.box1tf{
+   background-color: #0094EA; 
+}
+.box2tf{
+    background-color: #0068A4; 
+ }
+ .box3tf{
+    background-color: #FFAA08; 
+ }
+ .box4tf{
+    background-color: #EBF2FA; 
+ }

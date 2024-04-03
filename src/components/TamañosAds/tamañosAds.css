@@ -1,0 +1,92 @@
+.ads-container{
+  display: flex;
+  width: 100%;
+  height: 100%;
+   justify-content: center;
+   align-items: start;
+   padding: 0 0 0 50px;
+
+}
+
+.contenedor-imagen{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+    width: 1000px;
+}
+
+.ads{
+  width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.ads h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contenedor-imagen {
+    display: none; /* Ocultar todas las imágenes por defecto */
+    transition: 1s;
+  }
+  
+  .contenedor-imagen.expanded {
+    display: block; /* Mostrar la imagen si está expandida */
+  
+  }
+  .contenedor-imagen.expandedM {
+    display: block; /* Mostrar la imagen si está expandida */
+  
+  }
+
+  .contenedor-imagen div h2{
+   
+    margin: 20px 0;
+}
+
+.contenedor-imagen div ul li{
+   
+    margin: 10px 0;
+    font-size: 18px;
+    list-style: circle;
+    padding-left: 30px;
+}
+
+.divisor-izquierdo{
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.titulo-ads{
+  font-size: 45px;
+}
+
+.divisor-derecho{
+  width: 55%;
+  height: 90%;
+  overflow-x: hidden;
+}
+
+.divisor-derecho div{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: start;
+  margin-top: 90px;
+}
+.divisor-derecho div img{
+  width: 100%;
+}
+::-webkit-scrollbar {
+  width: 10px; /* Ancho de la barra de desplazamiento */
+}
+::-webkit-scrollbar-thumb {
+  background-color: #f76767; /* Cambia este color al que desees */
+  border-radius: 5px; /* Ajusta el redondeo de la barra de desplazamiento */
+}
