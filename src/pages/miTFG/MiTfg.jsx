@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import Swal from "sweetalert2";
 import TamañosAds from "../../components/TamañosAds/TamañosAds";
 import TamañosMeta from "../../components/TamañosMeta/TamañosMeta";
